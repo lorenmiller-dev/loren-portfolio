@@ -14,16 +14,16 @@ const TabBar = () => {
           />
         </div>
         <div className="flex">
-          <Link className="bg-search-icon w-6 h-6 bg-no-repeat bg-purple-300"></Link>
+          <Link className="bg-linkedin-icon w-24 h-24 bg-no-repeat bg-purple-300"></Link>
         </div>
         <div className="flex">
-          <Link className="bg-user-icon w-6 h-6 bg-no-repeat bg-red-300"></Link>
+          <Link className="bg-linkedin-icon w-6 h-6 bg-no-repeat bg-red-300"></Link>
         </div>
         <div className="flex">
           <Link className="bg-profile-icon w-6 h-6 bg-no-repeat bg-blue-200"></Link>
         </div>
         <div className="flex">
-          <Link className="bg-search-icon w-6 h-6 bg-no-repeat"></Link>
+          <Link className="bg-user-icon w-6 h-6 bg-no-repeat"></Link>
         </div>
       </div>
     </div>
