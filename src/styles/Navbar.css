@@ -1,11 +1,3 @@
-.bg-search-icon {
-    background-image: url(/public/assets/profile.png);
-}
-
-.bg-linkedin-icon {
-    background-image: url(/public/assets/linkedin.png);
-}
-
-.bg-user-icon {
-    background-image: url(/public/assets/user.png);
+.bg-profile-icon {
+  background-image: url(/public/assets/profile.png);
 }

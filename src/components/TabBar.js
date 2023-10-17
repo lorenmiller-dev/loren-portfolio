@@ -20,7 +20,7 @@ const TabBar = () => {
           <Link className="bg-user-icon w-6 h-6 bg-no-repeat bg-red-300"></Link>
         </div>
         <div className="flex">
-          <Link className="bg-search-icon w-6 h-6 bg-no-repeat bg-blue-200"></Link>
+          <Link className="bg-profile-icon w-6 h-6 bg-no-repeat bg-blue-200"></Link>
         </div>
         <div className="flex">
           <Link className="bg-search-icon w-6 h-6 bg-no-repeat"></Link>
