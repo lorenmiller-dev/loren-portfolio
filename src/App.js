@@ -1,10 +1,18 @@
-import './styles/App.css';
+import Navbar from "./components/Navbar";
+import TabBar from "./components/TabBar";
+import "./styles/App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App text-red-500">
-      Hello
-    </div>
+    <Router>
+      <div className="flex">
+        <TabBar />
+      </div>
+      <div className="flex-1">
+        <Navbar />
+      </div>
+    </Router>
   );
 }
 
