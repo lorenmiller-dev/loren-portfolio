@@ -2,6 +2,7 @@ import Contentbody from "./components/ContentBody";
 import Topbar from "./components/Topbar";
 import Sidebar from "./components/Sidebar";
 import TestDragbar from "./components/TestDragbar";
+import Footer from "./components/Footer";
 import "./styles/App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -15,6 +16,9 @@ function App() {
         <Sidebar />
         <TestDragbar/>
         <Contentbody/>
+      </div>
+      <div>
+        <Footer />
       </div>
     </Router>
   );

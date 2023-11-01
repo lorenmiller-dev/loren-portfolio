@@ -8,8 +8,8 @@ const Sidebar = () => {
         <Link className="bg-search-icon w-6 h-6 bg-no-repeat m-2"></Link>
         <Link className="bg-linkedin-icon w-6 h-6 bg-no-repeat m-2"></Link>
         <Link className="bg-resume-icon w-7 h-7 bg-no-repeat m-2"></Link>
+        <Link className="absolute bottom-0 bg-user-icon w-6 h-6 bg-no-repeat m-2 pb-0"></Link>
       </div>
-      <Link className="absolute bottom-0 bg-user-icon w-6 h-6 bg-no-repeat m-2 pb-8"></Link>
     </div>
   );
 };
