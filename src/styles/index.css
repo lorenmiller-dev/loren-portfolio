@@ -8,7 +8,8 @@ body {
 
 .bg-search-icon {
   background-image: url(/public/assets/search.png);
-  background-size: 20px 20px;
+  background-size: 24px 24px;
+  transform: translateX(1px);
 }
 
 .bg-linkedin-icon {
@@ -18,4 +19,10 @@ body {
 .bg-user-icon {
   background-image: url(/public/assets/user.png);
   background-size: 24px 24px;
+}
+
+.bg-resume-icon {
+  background-image: url(/public/assets/contract.png);
+  background-size: 26px 26px;
+  transform: translateX(3px);
 }
